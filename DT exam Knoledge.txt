@@ -1,0 +1,66 @@
+Capabilities & Monitoring : 24%
+This area tests your knowledge about how Dynatrace operates in your environment, how data is gathered and analyzed, and features offered by Dynatrace for full-stack performance monitoring of your applications.
+
+Describe application baselining and how it is used in Dynatrace.
+Describe how Dynatrace gathers log files for analysis. 
+Select options and metrics available to configure database and network monitoring.
+Recall how process groups and services are detected and presented.
+Describe the information provided by Dynatrace Application Security within your environment.
+
+
+
+Components & Architecture : 8%
+Here, you are asked to confirm your knowledge about Dynatrace structure, the components that make up various parts of the system, and how they communicate with each other to report and analyze data. This also includes details about additional components and integration options, including interaction with 3rd party systems.
+
+1. Describe the benefits of enabling additional features and functions, such as ActiveGates or 3rd party integration.
+
+2. List the user roles and groups required for using Dynatrace for managed installations and via the user interface.
+
+3. Describe how Dynatrace monitoring affects network overhead.
+
+
+
+Digital Experience Management : 19%
+The Digital Experience Management (DEM) knowledge area combines Real User Monitoring and Synthetic monitoring in order to prioritize the experience of end users. Examinees should have knowledge of DEM metrics and how to use them to optimize user experience.
+
+1. Define Real User Monitoring and describe how it is implemented.
+
+2. Create rules to tune the tracking of user actions and assign tags to components to simplify searches and group metrics.
+
+3. Describe the data and metrics obtained through real user monitoring.
+
+4. Configure Synthetic monitors to test availability.
+
+
+
+Install & Configure : 20%
+This knowledge area encompasses installation of OneAgent and ActiveGate, configuration options available both globally and by entity, system settings, and options for configuration of detection, analysis, and monitoring in Dynatrace and via configuration files.
+
+1. Configure Dynatrace options to customize naming and recognition of services and other entities.
+
+2. Describe options for configuring system settings, alerts, notifications, preferences, and enabling or disabling specific technologies, features, and functions.
+
+3. Describe options for installing and updating OneAgent or ActiveGate.
+
+
+
+Problems & Resolution : 13%
+Dynatrace automatically detects performance anomalies in your applications, services, and infrastructure. This area encompasses concepts, configuration options, notifications, events, alerting, and problem analysis.
+
+1. Discover, describe, and tune anomaly detection sensitivity, override thresholds, create threshold alerts, and disable alerting for certain applications, hosts, database services, or for other tiers.
+
+2. Correctly identify the parameters Dynatrace uses for frequent issue detection to determine healthy or unhealthy operations.
+
+3. Describe how Dynatrace identifies the root cause of problems.
+
+4. Use Dynatrace tools such as the Problem Evolution Player, Smartscape, log monitoring, and root-cause analysis to identify problems and facilitate problem resolution.
+
+
+Reporting & Analysis :16%
+These questions are about facts, procedures, and principles for using Dynatrace, finding and interpreting data, which is provided via dashboards, the Smartscape, visualized in infographics, or presented in reports.
+
+1. Provided charts and infographics and correctly identify the data presented.
+
+2. Correctly identify the availability and retention of monitoring data.
+
+3. Select options available for creating dashboards and adding tiles.
