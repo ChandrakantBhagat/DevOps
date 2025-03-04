@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    environment {
+        DT_API_TOKEN = credentials('dynatrace-api-token')
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/your-repo/monaco-configs.git'
+            }
+        }
+
+        // stage('Install Monaco') {
+        //     steps {
+        //         sh 'curl -L https://github.com/Dynatrace/monaco/releases/latest/download/monaco-linux-amd64 -o monaco'
+        //         sh 'chmod +x monaco'
+        //     }
+        // }
+
+        stage('Deploy SLO with Monaco') {
+            steps {
+                sh './monaco deploy manifes1t.yaml'
+            }
+        }
+    }
+}
