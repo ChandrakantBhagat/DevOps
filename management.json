@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "name": "myappdr",
+            "rules": [
+                {
+                    "type": "SERVICE",
+                    "enabled": true,
+                    "valueFormat": "SERVICE",
+                    "conditions": [
+                        {
+                            "key": {
+                                "attribute": "SERVICE_TAG",
+                                "dynamicKey": null,
+                                "type": "STATIC"
+                            },
+                            "comparisonInfo": {
+                                "type": "STRING",
+                                "operator": "EQUALS",
+                                "value": "myappdr",
+                                "negate": false,
+                                "caseSensitive": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "myappdc",
+            "rules": [
+                {
+                    "type": "SERVICE",
+                    "enabled": true,
+                    "valueFormat": "SERVICE",
+                    "conditions": [
+                        {
+                            "key": {
+                                "attribute": "SERVICE_TAG",
+                                "dynamicKey": null,
+                                "type": "STATIC"
+                            },
+                            "comparisonInfo": {
+                                "type": "STRING",
+                                "operator": "EQUALS",
+                                "value": "myappdc",
+                                "negate": false,
+                                "caseSensitive": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
