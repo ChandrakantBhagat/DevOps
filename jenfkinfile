@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        DYNATRACE_API_TOKEN = credentials('dynatrace-api-token') // Store token in Jenkins credentials
+        DYNATRACE_API_TOKEN = credentials('') // Store token in Jenkins credentials
         DYNATRACE_BASE_URL = 'https://kzo05756.live.dynatrace.com'
     }
     stages {
